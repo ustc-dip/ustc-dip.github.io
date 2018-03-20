@@ -1,0 +1,267 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<!-- 包含头部信息用于适应不同设备 -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- 包含 bootstrap 样式表 -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/headroom.min.js"></script>
+<script src="js/jQuery.headroom.min.js"></script>
+<script src="js/layer/layer.min.js"></script>
+<title>数字图像处理课程主页</title>
+<link href="css/css" rel="stylesheet">
+<style type="text/css">
+a {
+	text-decoration: none;
+}
+
+.navbar-inner {
+	background-color: #00f;
+}
+
+.note {
+	padding: 18px 20px;
+	background: #eee;
+	text-decoration: none;
+	background: #ffc;
+	display: block;
+	padding: 20px;
+	width: 230px;
+	box-shadow: 5px 5px 7px rgba(33, 33, 33, .7);
+	-webkit-transform: rotate(-6deg);
+	-moz-transform: rotate(-6deg);
+	-ms-transform: rotate(-6deg);
+	transform: rotate(-6deg);
+	font-size: 18px;
+	position: fixed;
+	top: 100px;
+	right: 20px;
+}
+</style>
+<style type="text/css">
+.headroom {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	transition: all .5s ease-in-out;
+}
+
+.headroom--unpinned {
+	top: -100px;
+}
+
+.headroom--pinned {
+	top: 0;
+}
+</style>
+</head>
+<body
+	style="height: 100%; color: rgb(0, 0, 0); -ms-overflow-x: hidden; padding-top: 50px;">
+	<div class="container">
+		<nav class="navbar navbar-default navbar-fixed-top navbar-inverse"
+			id="header" role="navigation">
+			<div class="navbar-header">
+				<a class="navbar-brand active" href="#" style="color: white;">数字图像处理课程主页&nbsp(2018春)</a>
+			</div>
+			<div>
+				<ul class="nav navbar-nav">
+					<li><a href="#class_info">课程信息</a></li>
+					<li><a href="#books">相关书籍</a></li>
+					<li><a href="#courseware">教学课件</a></li>
+					<li><a href="#project">课程项目</a></li>
+					<li><a href="#exam">考试信息</a></li>
+					<li><a href="#contact">联系方式</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<br>
+		<br>
+		
+			<!--Notice-->
+		<span
+			style="padding-left: 5px; font-size: 20px; font-weight: bold; padding-top: 50px;">NOTICE:</span><br><br>
+
+			<!--<p style="padding-left: 10px; font-weight: bold; color: red">
+			update 2017-10-20 --- 上传了第一次作业的说明和示例代码，截止日期11月10日</p> -->
+			
+			<p style="padding-left: 30px; font-weight: bold;">
+			update 2018-03-21 --- 每一章的课件将会在上课结束后发布。</p>
+
+			<p style="padding-left: 30px; font-weight: bold; color: red">
+			update 2018-03-21 --- 数字图像处理&nbsp(2018春)&nbsp课程的课件和通知将在该主页更新，请大家保持关注！</p>
+		
+		<br>
+		<br>
+		
+			<!--课程信息-->
+		<span
+			style="padding-left: 0px; font-size: 20px; font-weight: bold; padding-top: 50px;"
+			id="class_info">课程信息:</span><br><br>
+
+		<table class="table table-striped table-bordered text-center">
+			<tbody>
+				<tr>
+					<!--<td width="30%">-->
+					<td>授课老师:&nbsp<a href="http://staff.ustc.edu.cn/~lihq" target="_blank">李厚强</a></td>
+					<td><a href="mailto:lihq@ustc.edu.cn">lihq@ustc.edu.cn</a></td>
+					<td>科技实验楼西楼&nbsp1206</td><!--<td width="20%"></td>-->
+				</tr>
+				<tr>
+					<td>授课老师:&nbsp<a href="http://staff.ustc.edu.cn/~zhwg" target="_blank">周文罡</a></td>
+					<td><a href="mailto:zhwg@ustc.edu.cn">zhwg@ustc.edu.cn</a></td>
+					<td>科技实验楼西楼&nbsp1207</td>
+				</tr>
+				<tr>
+					<td>课程助教:&nbsp<a target="_blank">林丰</a></td>
+					<td><a href="mailto:lin1993@ustc.edu.cn">lin1993@mail.ustc.edu.cn</a></td>
+					<td>科技实验楼西楼&nbsp1210</td>
+				</tr>
+				<tr><td> </td></tr>
+
+				<tr>
+					<td>上课时间:&nbsp周四&nbsp(8,&nbsp9,&nbsp10)</td>
+					<td>上课教室:&nbsp3A210</td>
+					<td>课程学分:&nbsp2.0&nbsp学分</td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<br>
+		<br>
+		
+			<!--相关书籍-->
+		<span
+			style="padding-left: 0px; font-size: 20px; font-weight: bold; padding-top: 50px;" id="books">相关书籍:</span><br><br>
+
+		<!--<button class="btn" ><a href="https://book.douban.com/subject/11613888/">图像工程(中册)</a></button>-->
+		<p style="padding-left: 30px">课程教材</p>
+		<p style="padding-left: 30px">
+			<b>《数字图像处理》</b>(第三版), 2017, [美] Rafael C. Gonzalez 著; 阮秋琦 等 译.</p><br>
+		
+		<p style="padding-left: 30px">参考教材</p>
+		<p style="padding-left: 30px">1. 
+			<b>《图像工程 (上册): 图像处理》</b>(第3版), 2012, 章毓晋 著.</p>
+		<p style="padding-left: 30px">2. 
+			<b>《数字图像处理》</b>(MATLAB版) (本科教学版) (第2版), 2014, 
+			[美] Rafael C. Gonzalez, Richard E. Woods, Steven L. Eddins 著; 阮秋琦 译.</p>
+		<p style="padding-left: 30px">3. 
+			<b>《The Image Processing Handbook》</b>(4th Ed), 2002, Russ J. C. 著.</p>
+		<p style="padding-left: 30px">4. 
+			<b>《Digital Image Processing》</b>, 1996, Kenneth. R. Casteman 著.</p>
+		<p style="padding-left: 30px">5. 
+			<b>《Digital Image Processing》</b>(3th Ed), 2001, W. K. Pratt 著.</p>
+				
+		<br>
+		<br>
+		
+		<!--<span
+			style="font-size: 20px; font-weight: bold; padding-left: 0px; padding-top: 8px;"
+			id="courseware">课件和作业:</span><br> <br>
+
+		<p style="padding-left: 10px; font-weight: bold;">1
+			请严格遵守作业说明文档的要求完成作业，包括但不限于作业的提交方式以及文档的命名方式。</p>
+		<p style="padding-left: 10px; font-weight: bold;">2
+			提交作业时，请发送邮件至<a href="mailto:unknown">待定</a>，邮件名和作业压缩包命名一致。</p>
+		<p style="padding-left: 10px; font-weight: bold;">2
+			请务必在截止日期之前提交作业，时间以收到邮件的时间为准。</p>
+		<p style="padding-left: 10px; font-weight: bold; color: red">3
+			禁止任何形式的抄袭。</p></br>-->
+
+		<!--<p> 课件下载网址：<a href="http://staff.ustc.edu.cn/~lihq/download">http://staff.ustc.edu.cn/~lihq/download</a>(待更新，后续会上传课件上去)</p>-->
+		
+			<!--教学课件-->
+		<span
+			style="font-size: 20px; font-weight: bold; padding-left: 0px; padding-top: 50px;"
+			id="courseware">教学课件:</span><br><br>
+		
+		<table class="table table-hover table-bordered text-center"
+		       style="position: absolution; right: 10px; ">
+			<thead>
+				<tr class="active">
+					<td width="50%"><span style="color: green; font-weight: bold;">日期</span></td>
+					<td width="50%"><span style="color: green; font-weight: bold;">课件</span></td>
+					<!--<td width="25%"><span style="color: green; font-weight: bold;">作业</span></td>
+					<td><span style="color: green; font-weight: bold;">截止日期</span></td>-->
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<!--<td>2018-02-28 &nbsp&nbsp 13:30</td>-->
+					<td>2018-03-21</td>
+					<td><a href="./slice/DIP-chapter1.rar" target="_blank">Chapter1-绪论</a></td>
+					<!--<td rowspan="8" style="vertical-align:middle">
+						<p>第一次作业</p>
+						<p>1. <a href="./homework/hw1/hw1_readme.pdf" target="_blank">作业说明</a></p>
+						<p>2. <a href="./homework/hw1/CV_code_Sample.zip" target="_blank">示例代码</a></p>
+					</td>
+					<td rowspan="8" style="vertical-align:middle">2017年11月10日</td>-->
+				</tr>
+				<tr>
+					<td>2018-03-21</td>
+					<td><a href="./slice/DIP-chapter2.rar" target="_blank">Chapter2-数字图像基础</a></td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<br>
+		<br>
+		
+			<!--课程项目-->
+		<span 
+		      style="font-size: 20px; font-weight: bold; padding-left: 0px; padding-top: 50px;" id="project">课程项目:</span>
+		<p style="padding-left: 30px; font-weight: bold"><br><br>
+			<!--课程项目说明: <a href="">待定</a>--><span style="color: red">待定</span></p>
+		
+		<br>
+		<br>
+
+			<!--考试信息-->
+		<span
+		      style="font-size: 20px; font-weight: bold; padding-left: 0px; padding-top: 50px;" id="exam">考试信息:</span>
+		
+		<table class="table table-striped table-bordered text-center">
+			<tbody>
+				<thead>
+				<tr>
+					<td><span style="color: green; font-weight: bold;">内容</span></td>
+					<td><span style="color: green; font-weight: bold;">说明</span></td>
+				</tr>
+				</thead>
+				<tr>
+					<td>考试时间</td>
+					<td><span style="font-weight: bold; color: red">待定</span></td>
+				</tr>
+				<tr>
+					<td>考试地点</td>
+					<td><span style="font-weight: bold; color: red">待定</span></td>
+				</tr>
+				<tr>
+					<td>考试形式</td>
+					<td><span style="font-weight: bold; color: red">待定</span></td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<br>
+		<br>
+				
+			<!--联系方式-->
+		<span
+		      style="font-size: 20px; font-weight: bold; padding-left: 0px; padding-top: 50px;" id="contact">联系方式:</span><br><br>
+		<p style="padding-left: 30px">若有任何问题，请发邮件给老师或者助教，邮箱见课程信息部分。</p>
+				
+		<br>
+		<br>
+
+		<p>&copy; MCC-Vision Lab 2018</p>
+
+				
+	</div>
+</body>
+</html>
+
