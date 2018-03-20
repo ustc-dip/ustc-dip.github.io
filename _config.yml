@@ -1,0 +1,21 @@
+# Site settings
+title: 数字图像处理
+email: lin1993@mail.ustc.edu.cn
+description: "Course materials and notes for USTC DIP(Digital Image Processing) class."
+baseurl: ""
+url: "http://ustc-dip.github.io"
+twitter_username: 
+github_username:  ustc-dip
+
+# Build settings
+#markdown: kramdown
+#permalink: pretty
+
+
+#highlighter: rouge
+#kramdown:
+#  input: GFM
+#  auto_ids: true
+#  syntax_highlighter: rouge
+
+#future: true
